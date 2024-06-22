@@ -1,0 +1,198 @@
+body {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #232D3F;
+    color: #fff;
+}
+
+h1,
+.h3 {
+    color: #fff;
+}
+
+header a img {
+    height: 60px;
+    width: 60px;
+    margin-left: 2rem;
+}
+
+.navbar {
+    background-color: #0F0F0F;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #8e32ea;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navbar-expand-sm {
+    border-bottom: 1px solid #8e32ea;
+}
+
+.lancamentos {
+    margin-top: 100px; /* Ajuste para compensar o navbar fixo */
+}
+
+.lancamentos,
+.destaques {
+    padding: 3rem;
+    padding-bottom: 0;
+}
+
+.destaques {
+    padding-bottom: 3rem;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.carousel-item>img {
+    max-width: 900px;
+    width: 100%;
+}
+
+section h3 {
+    font-weight: 700;
+    border-bottom: 1px solid #8e32ea;
+    line-height: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.nav-pills {
+    margin-bottom: 2rem;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #8e32ea;
+    border-radius: 0;
+}
+
+.nav-pills .nav-link:hover {
+    color: #0F0F0F;
+}
+
+.destaques .col {
+    width: 100%;
+}
+
+.card .btn-primary {
+    background-color: orangered;
+    border: none;
+}
+
+.card .btn-primary:hover {
+    transition: 0.15s;
+    opacity: 0.7;
+}
+
+.card {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #8e32ea;
+    border-radius: 0;
+    align-items: center;
+    margin: 0 35px;
+}
+
+.card:hover {
+    transition: 0.2s;
+    translate: 0 -10px;
+    scale: 1.02;
+}
+
+.card img {
+    height: auto;
+    width: 100%;
+}
+
+.card-body {
+    background-color: transparent;
+}
+
+.accordion-header {
+    background-color: #8e32ea;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+.accordion-body {
+    background-color: #005B41;
+    color: #fff;
+    cursor: pointer;
+    padding: 3rem 1rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background: none;
+    color: #fff;
+    border: none;
+}
+
+.accordion-button:focus-visible {
+    outline: none;
+}
+
+.accordion-button {
+    background: none;
+    color: #fff;
+    /* Remova o background padrão do botão */
+    border: none;
+    /* Remova a borda padrão do botão */
+    /* Estilize o ícone de acordo com sua preferência */
+}
+
+/* ---------Media Queries-------------- */
+
+@media screen and (max-width: 576px) {
+    .navbar-expand-sm .navbar-nav {
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar-expand-sm .navbar-nav li {
+        width: 100%;
+        text-align: center;
+    }
+
+    header a img {
+        margin-left: 0rem;
+    }
+
+    .card {
+        color: #fff;
+        background-color: transparent;
+        border: 2px solid #008170;
+        border-radius: 0;
+        align-items: center;
+        margin: 0;
+    }
+
+    .lancamentos,
+    .destaques {
+        padding: 1.5rem;
+        padding-bottom: 0;
+    }
+
+    .destaques {
+        padding-bottom: 1.5rem;
+    }
+
+    .lancamentos {
+        margin-top: 80px;
+    }
+}
